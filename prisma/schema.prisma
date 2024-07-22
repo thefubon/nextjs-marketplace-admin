@@ -1,9 +1,3 @@
-// Сгенерируйте Prisma Client
-// npx prisma generate
-
-// Создайте миграции (если есть изменения в схеме)
-// npx prisma migrate dev --name init
-
 generator client {
   provider = "prisma-client-js"
 }
