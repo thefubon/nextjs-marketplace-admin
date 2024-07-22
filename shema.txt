@@ -4,3 +4,33 @@ SHADOW_DATABASE_URL="postgresql://fubon:Alyumov6520%23@79.174.88.198:15484/shado
 JWT_SECRET="uFZ1odWIiG/jTEkAKwrkzE+V14ZeLv6ZMapGbIOvNWU="
 
 /app
+  /(admin)
+    /admin
+      page.tsx
+    layout.tsx
+  /(auth)
+    /sign-in
+      page.tsx
+    /sign-up
+      page.tsx
+    layout.tsx
+  /(public)
+    page.tsx
+    layout.tsx
+  layout.tsx
+/components
+/lib
+  utils.ts
+/public
+/styles
+  globals.css
+.eslintrc.json
+.gitignore
+.vercelignore
+components.json
+next-env.d.ts
+next.config.mjs
+package.json
+postcss.config.mjs
+tailwind.config.ts
+tsconfig.json
