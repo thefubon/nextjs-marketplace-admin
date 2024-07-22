@@ -1,2 +1,6 @@
+DATABASE_URL="postgresql://fubon:Alyumov6520%23@79.174.88.198:15484/main_db?schema=public"
+SHADOW_DATABASE_URL="postgresql://fubon:Alyumov6520%23@79.174.88.198:15484/shadow_db?schema=public"
+
+JWT_SECRET="uFZ1odWIiG/jTEkAKwrkzE+V14ZeLv6ZMapGbIOvNWU="
+
 /app
-    
